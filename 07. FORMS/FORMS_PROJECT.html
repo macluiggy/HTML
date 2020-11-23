@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<form action="ejemplo.com">
+	<fieldset>
+		<legend>
+			Sus detalles:
+		</legend>
+		<label>
+			Nombre:
+			<input type="text" name="nombre" size="30" maxlength="100">
+		</label>
+		<br>
+		<label>
+			Email:
+			<input type="email" name="email" size="30" maxlength="30">
+		</label>
+		<br>
+	</fieldset>
+	<fieldset>
+		<legend>
+			Tu reseña:
+		</legend>
+		<p>
+			<label for="hear-about">
+				Como escucho sobre nosotros?
+			</label>
+			<select name="referrer" id="hear-about">
+				<option value="google">Google</option>
+				<option value="amigo">Amigo</option>
+				<option value="la vecina chismosa">la vecina chismosa</option>
+				<option value="other">otro</option>
+			</select>
+		</p>
+		<p>
+			Nos visitarias de nuevo?
+			<br>
+			<label>
+				<input type="radio" name="rating" value="yes">
+				Yes
+			</label>
+			<label>
+				<input type="radio" name="rating" value="no">
+				No
+			</label>
+			<label>
+				<input type="radio" name="rating" value="maybe">
+				Tal vez
+			</label>
+		</p>
+		<p>
+			<label for="comentarios">
+				Comentarios:
+			</label>
+			<br>
+			<textarea rows="4" cols="40" id="comentarios">
+			</textarea>
+		</p>
+		<label>
+			<input type="checkbox" name="subscribe" checked="checked">
+			Enviarme actualizaciones a mi email
+		</label>
+		<br>
+		<input type="´submit" name="submit review">
+	</fieldset>
+</form>
+</body>
+</html>
