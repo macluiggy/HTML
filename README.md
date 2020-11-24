@@ -1,1 +1,1 @@
-<h1>Ejercicios del lenguaje de eqtiquetas HTML.</h1>
+<h1>Ejercicios del lenguaje de etiquetas HTML.</h1>
